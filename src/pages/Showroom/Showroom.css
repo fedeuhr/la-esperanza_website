@@ -1,0 +1,128 @@
+.contenedor-showroom__header {
+  width: 64%;
+  padding: 0 18vw;  
+  animation: fadeInHeader .4s ease;
+  background: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 0px 0px 0.7vw rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 5.8vw 5.8vw;
+  padding: 2.4vw;
+}
+
+.contenedor-showroom__header__text {
+  color: #fff;
+  font-size: 2.6vw;
+  line-height: 2.6vw;
+  text-align: center;
+}
+
+.contenedor-showroom__form {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  padding-top: 5rem;
+  align-items: flex-end;
+  clip-path: inset(-100px -100px 0px -15px);
+  position: relative;
+}
+
+.contenedor_form_cita {
+  width: 100%;
+  position: relative;
+}
+
+.contenedor_form_cita__video {
+  width: 100%;
+  height: 48rem;
+  object-fit: cover;
+  border-radius: 7rem 0 0;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+  z-index: -1;
+  position: relative;
+}
+
+.contenedor-volumen {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .6);
+  position: absolute;
+  right: 10px;
+  bottom: 18px;
+  cursor: pointer;
+}
+
+.contenedor-volumen span {
+  font-size: 20px;
+}
+
+.contenedor-volumen small {
+  font-size: 14px;
+  margin-right: 6px;
+}
+
+.contenedor_video {
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .contenedor-showroom__header {
+    width: 80%;
+  }
+
+  .contenedor-showroom__form {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contenedor_video {
+    position: relative;
+  }
+
+  .contenedor-showroom__form {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 3rem;
+    clip-path: inset(-100px -100px 0px -15px);
+  }
+
+  .contenedor_form_cita__video {
+    height: auto;
+    border-radius: 1rem; 
+  }
+
+  .showroom-container {
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor_video {
+    margin: 0 2rem;
+  }
+
+  .contenedor-showroom__form {
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  .contenedor-showroom__header {
+    width: 90%; 
+  }
+
+  .contenedor-showroom__header__text {
+    font-size: 1rem;
+    line-height: unset;
+    text-align: center;
+  }
+
+  .contenedor-volumen {
+    bottom: 10px;
+  }
+}

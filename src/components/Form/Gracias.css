@@ -1,0 +1,40 @@
+.containerGracias {
+	text-align: center;
+	height: 35rem;
+	padding: 5rem;
+	background-color: white;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+  border-top-left-radius: 5rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerGracias p {
+	font-size: 1.4rem;
+	color: var(--color-primary);
+	font-weight: 600;
+}
+
+@media screen and (max-width: 1000px) {
+	.containerGracias {
+		padding: 5rem;
+		border-top-left-radius: 5rem;
+		border-top-right-radius: 5rem;
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.containerGracias {
+		height: 30rem;
+		filter: none;
+		padding: 3rem;
+		width: 100%;
+	}
+
+	.containerGracias p {
+		font-size: 1.2rem;
+	}
+}

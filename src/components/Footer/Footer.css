@@ -1,0 +1,203 @@
+.contenedor-footer__datos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #D8D8D8;
+  padding: 1.2vw 18vw;
+}
+
+.contenedor-footer__contacto h4,
+.contenedor-footer__horarios h4,
+.contenedor-footer__redes-sociales h4 {
+  text-align: center;
+  margin-bottom: 1.6vw;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1.08vw;
+  line-height: 1.08vw;
+}
+
+.contenedor-footer__contacto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contenedor-footer__redes-sociales {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contenedor-footer__contacto__item img {
+ width: .95vw;   
+}
+
+.contenedor-footer__redes-sociales__ubicaciones {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0.7320644216691069vw;
+}
+
+.contenedor-footer__contacto__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenedor-footer__contacto__item a {
+  font-weight: 300;
+  font-size: .75vw;
+  line-height: .74vw;
+  text-decoration: none;
+  color: #020101;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .6vw;
+}
+
+.contenedor-footer__contacto__item img {
+  margin-right: 0.27vw;
+}
+
+.contenedor-footer__horarios h4 {
+  color: var(--color-primary);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-footer__horarios__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: .76vw;
+  line-height: .9vw;
+}
+
+
+
+.contenedor-footer__horarios__item strong {
+  color: var(--color-primary);
+}
+
+
+.contenedor-footer__redes-sociales__item {
+  margin: 0 .5vw;
+}
+
+.contenedor-footer__redes-sociales__item a img {
+  width: 2.15vw;
+}
+
+.contenedor-footer__redes-sociales__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.contenedor-footer__derechos {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-primary);
+  width: 100%;
+  padding: 30px 0;
+  font-weight: 300;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  color: #ffff;
+}
+
+@media screen and (max-width: 1826px) {
+  .contenedor-footer__horarios__item {
+    font-size: 1.25vw;
+    line-height: unset;
+  }
+  .contenedor-footer__contacto h4, .contenedor-footer__horarios h4, .contenedor-footer__redes-sociales h4 {
+    font-size: 1.5vw;
+  }
+  .contenedor-footer__contacto__item a {
+    font-size: .8vw;
+    line-height: unset;
+  }
+  .contenedor-footer__contacto__item img {
+    width: 2.5vw;
+  }
+  .contenedor-footer__redes-sociales__item a img {
+    width: 2.75vw;
+  }
+  .contenedor-footer__derechos {
+    font-size: 1rem;
+  }
+  .contenedor-footer__horarios__item {
+    font-size: .8vw;
+    text-align: center;
+  }
+  .contenedor-footer__contacto h4,
+.contenedor-footer__horarios h4,
+.contenedor-footer__redes-sociales h4 {
+  text-align: center;
+  margin-bottom: 1.6vw;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1.1vw;
+  line-height: 1.08vw;
+}
+}
+
+@media screen and (max-width: 900px) {
+  .contenedor-footer__datos {
+    grid-template-columns: 1fr;
+    padding: 5vw 1vw;
+
+  }
+  .contenedor-footer__contacto {
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  .contenedor-footer__redes-sociales {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .contenedor-footer__horarios__item {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .contenedor-footer__contacto h4, .contenedor-footer__horarios h4, .contenedor-footer__redes-sociales h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .contenedor-footer__contacto__item a {
+    font-size: 1rem;
+  }
+  .contenedor-footer__contacto__item img {
+    width: 2.5rem;
+  }
+  .contenedor-footer__redes-sociales__ubicaciones .contenedor-footer__contacto__item {
+    margin-bottom: 0.5856515373352855vw;
+  }
+  .contenedor-footer__redes-sociales__items {
+    margin-bottom: 1.8vw;
+  }
+  .contenedor-footer__redes-sociales__item a img {
+    width: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor-footer__derechos {
+    padding: 6vw 0;
+    font-size: clamp(12px,3vw,20px) ;
+    line-height: 3vw;
+    text-align: center;
+  }
+  .contenedor-footer__redes-sociales__ubicaciones .contenedor-footer__contacto__item {
+    margin-bottom: 3vw;
+  }
+  
+}

@@ -1,0 +1,48 @@
+.containerGraciasCita {
+	text-align: center;
+	height: 35rem;
+	padding: 5rem;
+	background-color: white;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+  border-top-left-radius: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerGraciasCita p {
+	font-size: 1.4rem;
+	color: var(--color-primary);
+	font-weight: 600;
+}
+
+.containerGraciasCita h3 {
+	font-size: 1.8rem;
+	color: var(--color-secondary);
+}
+
+@media screen and (max-width: 900px) {
+	.containerGraciasCita {
+		padding: 5rem;
+		border-top-left-radius: 5rem;
+		border-top-right-radius: 5rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.containerGraciasCita {
+		height: 30rem;
+		filter: none;
+		padding: 3rem;
+		width: 100%;
+	}
+
+	.containerGraciasCita p {
+		font-size: 1.2rem;
+	}
+	
+	.containerGraciasCita h3 {
+		font-size: 1.4rem;
+	}
+}

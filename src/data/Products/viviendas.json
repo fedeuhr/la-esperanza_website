@@ -1,0 +1,476 @@
+[
+    {
+      "id": 3017,
+      "nombre":["Modelo", "3017"],
+      "tipo": "modelo",
+      "cantidadDePlantas": 1,
+      "superficies": {
+        "metrosCubiertos": 97.13,
+        "metrosSemicubiertos": 31.84
+      },
+      "ambientes": {
+        "cantidadDeDormitorios":3,
+        "cantidadDeBanos": 2,
+        "cocina":true,
+        "comedor":true,
+        "estar": true,
+        "pergola": true
+      },
+      "porcentajeDeEntrega":0.4,
+      "cantidadDeCuotas": 96,
+      "descripcion": "Diseño moderno y minimalista. En su interior posee una cómoda sala de estar/comedor, que conecta con un dormitorio suite con vestidor. Este modelo además cuenta con otros dos dormitorios, que conectan con otro baño social y la cocina.",
+      "cantidadDeImagenes": [1, 2, 3, 4, 5]
+    },
+    {
+      "id": 3018,
+      "nombre":["Modelo", "3018"],
+      "tipo": "modelo",
+      "cantidadDePlantas": 1,
+      "superficies": {
+        "metrosCubiertos":42.72,
+        "metrosSemicubiertos":10.25
+      },
+      "ambientes": {
+        "cantidadDeDormitorios": 2,
+        "cantidadDeBanos": 1,
+        "cocina":true,
+        "comedor":true,
+        "estar": true,
+        "pergola": true
+      },
+      "porcentajeDeEntrega": 0.4,
+      "cantidadDeCuotas": 36,
+      "descripcion": "Modelo destacado por su fachada delantera con listones elegantes de madera y una puerta ventanal con la parte interna. En su interior, se observa una cocina, que conecta con dos dormitorios, que cuentan con un ventanal externo. Contiguo a uno de los dormitorios se encuentra un baño amplio que  se conecta con una parte de la cocina, con una ubicación ideal para el acceso de los tres ambientes.",
+      "cantidadDeImagenes": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 3020,
+    "nombre": ["Modelo","3020"],
+    "tipo": "modelo",
+    "cantidadDePlantas": 1,
+    "superficies": {
+      "metrosCubiertos": 51.76,
+      "metrosSemicubiertos": 15
+    },
+    "ambientes": {
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 1,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": true
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 48,
+    "descripcion": "Diseño de una planta, destacado por su delicado revestimiento de piedra. En su lateral izquierdo se ubica una galería semi cubierta que puede ser utilizada como espacio de ocio, o bien como garaje. Al ingresar a la vivienda, se encontrará con los ambientes principales; cocina comedor y estar. Sector que además conduce a la zona de descanso y al baño de uso social, ubicado estratégicamente en el centro de los 2 dormitorios.",
+    "cantidadDeImagenes": [1, 2, 3, 4, 5]  
+  },
+  {
+    "id": 3021,
+    "nombre":["Modelo", "3021"],
+    "tipo": "modelo",
+    "cantidadDePlantas": 1,
+    "superficies": {
+      "metrosCubiertos": 107.6,
+      "metrosSemicubiertos": 47.41
+    },
+    "ambientes": {
+      "cantidadDeDormitorios": 3,
+      "cantidadDeBanos": 2,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": true
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 120,
+    "descripcion": "Diseño moderno. La entrada está diseñada con pérgola para acentuar el estilo vanguardista. Su interior está diseñado de manera estratégica, dispone de 3 dormitorios, uno en específico como Suite. Un amplio comedor/estar es unificado a la cocina y el hall que conecta un salón especial. Su exterior presenta un garage.",
+    "cantidadDeImagenes": [1, 2, 3, 4, 5]  
+  },
+  {
+    "id": 3022,
+    "nombre":["Modelo", "3022"],
+    "tipo":"modelo",
+    "cantidadDePlantas": 1,
+    "superficies": {
+      "metrosCubiertos": 71,
+      "metrosSemicubiertos": 15
+    },
+    "ambientes": {
+      "cantidadDeDormitorios": 3,
+      "cantidadDeBanos": 2,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": true
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 72,
+    "descripcion": "Diseño minimalista caracterizado por la iluminación natural presente en cada sector de la vivienda. Posee un camino de piedras que conduce al ingreso de la vivienda y una galería semi cubierta que podrá ser utilizada también como garaje. Cuenta con un amplio comedor que conecta con la cocina y el estar. A continuación, se ubica un pasillo que lo dirige a la zona de descanso, donde encontrará 3 dormitorios, uno de ellos con baño en suite y un baño de uso social.",
+    "cantidadDeImagenes": [1, 2, 3, 4, 5]  
+  },
+  {
+    "id": 3023,
+    "nombre":["Modelo", "3023"],
+    "tipo": "modelo",
+    "cantidadDePlantas": 1,
+    "superficies": {
+      "metrosCubiertos": 69.61,
+      "metrosSemicubiertos": 15
+    },
+    "ambientes": {
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 1,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": true
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 72,
+    "descripcion": "Tipología que se destaca por su diseño futurista y minimalista. Este modelo cuenta con dos dormitorios ubicado en los dos extremos de la casa, y en el medio de ellos, se encuentra el baño de uso común. Se desprende un pasillo que conecta a comedor y a una sala de estar. En su lateral, se encuentra una galería amplia y disponible para un espacio de recreación o garage.",
+    "cantidadDeImagenes": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 3025,
+    "nombre":["Modelo", "3025"],
+    "tipo": "modelo",
+    "cantidadDePlantas": 1,
+    "superficies": {
+      "metrosCubiertos": 43.60,
+      "metrosSemicubiertos": 25
+    },
+    "ambientes": {
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 1,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": true
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 48,
+    "descripcion": "Diseño moderno, con marcada personalidad y amplios espacios. En su interior, al ingresar a la vivienda se observa un amplio estar con excelente iluminación conectado con la cocina comedor. El baño está estratégicamente ubicado entre los dos dormitorios.",
+    "cantidadDeImagenes": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 3027,
+    "nombre":["Modelo", "3027"],
+    "tipo": "modelo",
+    "cantidadDePlantas": 1,
+    "superficies": {
+      "metrosCubiertos": 103.19,
+      "metrosSemicubiertos": 15
+    },
+    "ambientes": {
+      "cantidadDeDormitorios": 3,
+      "cantidadDeBanos": 2,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": true
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 96,
+    "descripcion": "Elegante diseño de una planta, destacado por su exquisita paleta de colores y texturas. En su interior, al ingresar a la vivienda se observa un amplio estar conectado con la cocina comedor. Al ingresar a la vivienda, se encontrará con la cocina que conecta de manera directa con el estar comedor. Luego, el hall nos dirige al estudio y un baño. El recorrido, finaliza en tres amplios dormitorios, uno con baño y vestidor.",
+    "cantidadDeImagenes": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 3030,
+    "nombre":["Modelo", "3030"],
+    "tipo": "modelo",
+    "cantidadDePlantas": 1,
+    "superficies": {
+      "metrosCubiertos": 138.91,
+      "metrosSemicubiertos": 15
+    },
+    "ambientes": {
+      "cantidadDeDormitorios": 3,
+      "cantidadDeBanos": 3,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": true
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 120,
+    "descripcion": "Este modelo se caracteriza por un diseño sofisticado. Al ingresar a la vivienda, en su extremo derecho, ubicamos un amplio estar comedor cocina. A continuación, el hall nos dirige a un estudio y un baño de uso común. Al finalizar el recorrido, un largo pasillo nos dirige a tres funcionales dormitorios, uno suite con vestidor, y un baño. Este diseño en su exterior, además de una pérgola semi cubierta y cuenta con dos patios internos."
+  ,"cantidadDeImagenes": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 3034,
+    "nombre":["Modelo", "3034"],
+    "tipo": "modelo",
+    "cantidadDePlantas": 2,
+    "superficies": {
+      "metrosCubiertos": 40,
+      "metrosSemicubiertos": 11.9
+    },
+    "ambientes": {
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 2,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": true
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 48,
+    "descripcion": "Moderno diseño de 2 plantas, ideal para disfrutar en familia. Su PB está compuesta por cocina-comedor, dormitorio y baño. Su planta superior cuenta con un dormitorio con vestidor y baño en suite. En su lateral derecho presenta un garage complementario, mientras que en su lateral izquierdo, posee una pérgola generando un espacio adicional para compartir."
+  ,"cantidadDeImagenes": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 3035,
+    "nombre":["Modelo", "3035"],
+    "tipo": "modelo",
+    "cantidadDePlantas": 2,
+    "superficies": {
+      "metrosCubiertos": 60,
+      "metrosSemicubiertos": 19.30
+    },
+    "ambientes": {
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 2,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": true
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 72,
+    "descripcion": "Diseño tradicional de 2 plantas, con una estructura armoniosa. En el interior de su planta baja, se observa cocina/comedor conectadan a un dormitorio y un baño social. Su planta alta, presenta otro baño que conecta con el pasillo, y 2 dormitorios que cuentan con un ventanal externo. En su lateral presenta una pérgola que cumple la función de espacio de encuentro."
+  ,"cantidadDeImagenes": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 3036,
+    "nombre":["Modelo", "3036"],
+    "tipo": "modelo",
+    "cantidadDePlantas": 2,
+    "superficies": {
+      "metrosCubiertos": 70,
+      "metrosSemicubiertos": 20
+    },
+    "ambientes": {
+      "cantidadDeDormitorios": 3,
+      "cantidadDeBanos": 2,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": true
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 84,
+    "descripcion": "Diseño de dos plantas. En el interior de su planta baja, se observa un amplio living y cocina-comedor. Esta planta dispone de dormitorio y un baño social. Mientras que, su planta alta presenta otro baño que conecta con el pasillo, y dos importantes dormitorios. Como agregado distintivo, en su lateral dispone de una cochera.",
+    "cantidadDeImagenes": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 1100,
+    "nombre":["Cabaña", "1100"],
+    "tipo": "Cabaña",
+    "linea": "B",
+    "superficies": {
+      "metrosCubiertos": 43,
+      "metrosSemicubiertos": 0
+    },
+    "cantidadDePlantas": 2,
+    "ambientes": {
+      "cantidadDeDormitorios": 1,
+      "cantidadDeBanos": 1,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": false
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 60,
+    "descripcion": "Cabaña tradicional alpina para 2 personas, ideal para proyecto de inversión o vivienda propia. En su PB presenta estar/comedor y una confortable cocina. Contiene un cómodo baño. En su PA dispone de dormitorio.",
+    "cantidadDeImagenes": [1,2,3,4,5]
+  },
+  {
+    "id": 1101,
+    "nombre":["Cabaña","1101"],
+    "tipo": "Cabaña",
+    "linea": "B",
+    "superficies": {
+      "metrosCubiertos": 80.69,
+      "metrosSemicubiertos": 0  
+    },
+    "cantidadDePlantas": 2,
+    "ambientes" :{
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 1,
+      "cocina":true,
+      "estar":true,
+      "comedor":true,
+      "pergola":false
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 84,
+    "descripcion": "Cabaña tradicional alpina para 4 personas, ideal para proyecto de inversión o vivienda propia. En su PB presenta estar/comedor y una confortable cocina. Contiene un cómodo baño. En su PA dispone de 2 armoniosos dormitorio.",
+    "cantidadDeImagenes": [1,2,3,4,5]
+  },
+  {
+    "id": 1102,
+    "nombre":["Cabaña","1102"],
+    "tipo": "Cabaña",
+    "linea": "B",
+    "superficies": {
+      "metrosCubiertos": 96.93,
+      "metrosSemicubiertos": 0
+    },
+    "cantidadDePlantas": 2,
+    "ambientes": {
+      "cantidadDeDormitorios": 3,
+      "cantidadDeBanos": 2,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": false
+    },
+    "porcentajeDeEntrega": 0.4,
+    "cantidadDeCuotas": 120,
+    "descripcion": "Cabaña tradicional alpina para 4 personas, ideal para proyecto de inversión o vivienda propia. En su PB presenta estar/comedor y una confortable cocina. Contiene un cómodo baño, además de un dormitorio para 2 personas. En su PA dispone de 2 armoniosos dormitorio, para 2 personas cada uno.",
+    "cantidadDeImagenes": [1,2,3,4,5]
+  },
+  {
+    "id": 1200,
+    "nombre":["Cabaña", "1200"],
+    "tipo": "Cabaña",
+    "linea": "A",
+    "superficies": {
+      "metrosCubiertos": 42,
+      "metrosSemicubiertos": 18
+    },
+    "cantidadDePlantas": 2,
+    "ambientes": {
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 1,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": true
+    },
+    "cantidadDeCuotas": 60,
+    "porcentajeDeEntrega": 0.4,
+    "descuento": 0,
+    "descripcion": "Cabaña moderna para 3 personas, este diseño vanguardista está compuesto por 2 dormitorios, 1 de ellos conecta con el baño. La cabaña dispone de una gran sala de estar/comedor que a su vez conecta con la cocina, ideal para disfrutar.",
+    "cantidadDeImagenes": [1,2,3,4,5]
+  },
+  {
+    "id": 1201,
+    "nombre":["Cabaña", "1201"],
+    "tipo": "Cabaña",
+    "linea": "A",
+    "superficies":{
+      "metrosCubiertos": 73.09,
+      "metrosSemicubiertos": 0
+    },
+    "cantidadDePlantas": 1,
+    "ambientes": {
+      "cantidadDeDormitorios": 2,
+      "cantidadDeBanos": 1,
+      "cocina":true,
+      "comedor":true,
+      "estar": true,
+      "pergola": false
+    },
+    "cantidadDeCuotas": 72,
+    "porcentajeDeEntrega": 0.4,
+    "descuento": 0,
+    "descripcion": "Cabaña moderna para 3 personas, este diseño vanguardista está compuesto por 2 armoniosos dormitorios que conectan con el baño. La cabaña dispone de sala de estar/comedor que a su vez conecta con la cocina.",
+    "cantidadDeImagenes": [1,2,3,4,5]
+  },
+  {
+    "id": 1202,
+    "nombre":["Cabaña", "1202"],
+    "tipo": "Cabaña",
+    "linea": "A",
+    "superficies":{
+      "metrosCubiertos": 79.65,
+      "metrosSemicubiertos": 0
+    },
+    "cantidadDePlantas": 1,
+    "ambientes": {
+        "cantidadDeDormitorios": 2,
+        "cantidadDeBanos": 1,
+        "cocina":true,
+        "comedor":true,
+        "estar": true,
+        "pergola":false
+      },
+      "cantidadDeCuotas": 84,
+      "porcentajeDeEntrega": 0.4,
+      "descuento": 0,
+      "descripcion": "Cabaña moderna para 4 personas, este diseño vanguardista está compuesto por 2 amplios dormitorios que conectan con el baño. La cabaña dispone de una gran sala de estar/comedor que a su vez conecta con la cocina, ideal para disfrutar en una reunión o encuentro.",
+      "cantidadDeImagenes": [1,2,3,4,5]
+    },
+    {
+      "id": 1000,
+      "nombre":["Cabaña", "1000"],
+      "tipo": "Cabaña",
+      "linea": "C",
+      "superficies": {
+        "metrosCubiertos": 20,
+        "metrosSemicubiertos": 0
+      },
+      "cantidadDePlantas": 1,
+      "ambientes": {
+        "cantidadDeDormitorios": 1,
+        "cantidadDeBanos": 1,
+        "cocina":true,
+        "comedor":true,
+        "estar": true,
+        "pergola": false
+      },
+      "porcentajeDeEntrega": 0.4,
+      "cantidadDeCuotas": 12,
+      "descripcion": "Cabaña clásica ideal para 2 personas, ideal para proyecto de inversión o vivienda propia. Este modelo dispone de cocina junto al estar/comedor. Presenta un confortable dormitorio y un cómodo baño.",
+      "cantidadDeImagenes": [1,2,3,4,5]
+    },
+    {
+      "id": 1001,
+      "nombre":["Cabaña","1001"],
+      "tipo": "Cabaña",
+      "linea": "C",
+      "superficies": {
+        "metrosCubiertos": 36,
+        "metrosSemicubiertos": 0
+      },
+      "cantidadDePlantas": 1,
+      "ambientes" :{
+        "cantidadDeDormitorios": 2,
+        "cantidadDeBanos": 1,
+        "cocina":true,
+        "comedor":true,
+        "estar": true,
+        "pergola": false
+      },
+      "porcentajeDeEntrega": 0.4,
+      "cantidadDeCuotas": 24,
+      "descripcion": "Cabaña clásica ideal para 4 personas, ideal para proyecto de inversión o vivienda propia. Este modelo dispone de cocina junto a una amplia sala de estar/comedor. Presenta dos confortables dormitorios, conectado por un cómodo baño.",
+      "cantidadDeImagenes": [1,2,3,4,5]
+    },
+    {
+      "id": 1002,
+      "nombre":["Cabaña","1002"],
+      "tipo": "Cabaña",
+      "linea": "C",
+      "superficies": {
+        "metrosCubiertos": 42.14,
+        "metrosSemicubiertos": 0
+      },
+      "cantidadDePlantas": 1,
+      "ambientes": {
+        "cantidadDeDormitorios": 2,
+        "cantidadDeBanos": 1,
+        "cocina":true,
+        "comedor":true,
+        "estar": true,
+        "pergola": false
+      },
+      "porcentajeDeEntrega": 0.4,
+      "cantidadDeCuotas": 24,
+      "descripcion": "Cabaña clásica ideal para 4 personas, ideal para proyecto de inversión o vivienda propia. Este modelo dispone de un gran espacio con cocina conectado con la sala de estar/comedor. Presenta dos confortables dormitorios y un baño.",
+      "cantidadDeImagenes": [1,2,3,4,5]
+    }
+  ]

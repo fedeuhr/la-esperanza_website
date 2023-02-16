@@ -1,0 +1,23 @@
+[
+    {
+        "titulo":["Nueva línea de", "Cabañas"],
+        "leyenda": "LA EXPERIENCIA ÚNICA DE TENER UNA CABAÑA PROPIA",
+        "leyendaExpansion":["Ver más cabañas","Ver menos cabañas"],
+        "filtro": ["Cabaña"],
+        "id": ["cab"]
+    },
+    {
+        "titulo":["Modelos de", "Una planta"],
+        "leyenda": "Diseños ideales para comenzar tu sueño",
+        "leyendaExpansion":["Ver más modelos","Ver menos modelos"],
+        "filtro": ["modelo", 1],
+        "id": ["modUna"]
+    },
+    {
+        "titulo":["Modelos de", "Dos plantas"],
+        "leyenda": "CASAS PENSADAS PARA TU COMODIDAD",
+        "leyendaExpansion":["Ver más modelos","Ver menos modelos"],
+        "filtro": ["modelo", 2],
+        "id": ["modDos"]
+    }
+]

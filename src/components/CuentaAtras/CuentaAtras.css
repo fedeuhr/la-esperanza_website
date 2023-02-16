@@ -1,0 +1,103 @@
+.contenedor-oferta__titulo {
+    background: var(--color-secondary);
+    box-shadow: 0px 0px 0.7320644216691069vw rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 5.856515373352855vw 5.856515373352855vw;
+    height: 11.054172767203514vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7.320644216691069vw;
+    color: #fff;
+}
+
+.contenedor-oferta__titulo__text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 4.69vw;
+  line-height: 8.052708638360176vw;
+}
+
+.contenedor-oferta__descripcionTime {
+  width: 21vw;
+  background: var(--color-primary);
+  box-shadow: 0px 0px 0.7320644216691069vw rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px var(--border-radius40) var(--border-radius40);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.4641288433382138vw;
+  padding-top: 7.020644216691069vw;
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  z-index: -1;
+}
+
+.contenedor-oferta__descripcionTime--animated {
+  width: 21vw;
+  background: var(--color-primary);
+  box-shadow: 0px 0px 0.7320644216691069vw rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px var(--border-radius40) var(--border-radius40);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.4641288433382138vw;
+  padding-top: 7.020644216691069vw;
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  z-index: -1;
+  animation: fadeInHeader .4S ease;
+}
+
+.contenedor-oferta__descripcion__time {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-oferta__descripcion__time__text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.692386530014641vw;
+  line-height: 5.856515373352855vw;
+}
+
+.contenedor-oferta__descripcion__time__unidad {
+  text-transform: uppercase;
+  font-size: .8vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .contenedor-oferta__descripcionTime {
+    width: 55vw;
+    padding-top: 9.5vw;
+  }
+
+  .contenedor-oferta__descripcionTime--animated {
+    width: 55vw;
+    padding-top: 9.5vw;
+    animation: fadeInHeader .4S ease;
+  }
+
+  .contenedor-oferta__descripcion__time__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.692386530014641vw;
+    line-height: 5.856515373352855vw;
+  }
+
+  .contenedor-oferta__descripcion__time__text {
+    font-weight: 700;
+    font-size: 6.27vw;
+    line-height: 8vw;
+  }
+
+  .contenedor-oferta__descripcion__time__unidad {
+    text-transform: uppercase;
+    font-size: 2.1vw;
+  }
+
+}

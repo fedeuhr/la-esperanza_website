@@ -1,0 +1,33 @@
+{
+    "logo": {
+        "src": "images/logo.svg",
+        "alt": "Lsogo de Euro Casa"
+    },
+    "itemsMenu": [
+        {
+            "title": "¡Ofertas!",
+            "link": "/ofertas"
+        },
+        {
+            "title": "Cabañas",
+            "link": "/cabanas"
+        },
+        {
+            "title": "Modelos",
+            "link": "/modelos"
+        },
+        {
+            "title": "Showroom",
+            "link": "/showroom"
+            
+        },
+        {
+            "title": "Empresa",
+            "link": "/empresa"
+        },
+        {
+            "title": "Contacto",
+            "link": "/contacto"
+        }
+    ]
+}

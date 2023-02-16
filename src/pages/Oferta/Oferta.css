@@ -1,0 +1,270 @@
+
+.contenedor-oferta {
+  position: relative;
+  margin-bottom: 10.980966325036603vw;
+}
+
+.contenedor-oferta__header {
+  margin-bottom: 18vw;
+  animation: fadeInHeader .4s ease;
+}
+
+@keyframes fadeInHeader {
+  from {
+    transform: translateY(-200px);
+  } to {
+    transform: translateY(0);
+  }
+}
+
+.contenedor-oferta__header__titulo {
+  background: var(--color-secondary);
+  box-shadow: 0px 0px 0.7320644216691069vw rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 var(--border-radius80) var(--border-radius80);
+  height: 11.054172767203514vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7.320644216691069vw;
+  color: #fff;
+}
+
+.contenedor-oferta__header__titulo__text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 4.69vw;
+  line-height: 8.052708638360176vw;
+  text-transform: uppercase;
+}
+
+.contenedor-oferta__contenido {
+  position: relative;
+  display: grid;
+  grid-template-columns: 65% 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "main second1"
+                       "main second2";
+  gap: 2vw  2vw;
+}
+
+.contenedor-oferta__contendo__text {
+  position: absolute;
+  top: -5.7vw;
+  left: 1.5vw;
+  z-index: 2;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 3vw;
+  text-align: center;
+}
+
+.contenedor-oferta__contendo__text small {
+  font-weight: 300;
+}
+
+.contenedor-oferta__contenido > span > strog {
+  font-weight: 700;
+}
+
+.contenedor-oferta__contenido__llama {
+  top: -11vw;
+  left: -.4vw;
+  z-index: 1;
+  width: 30vw;
+  user-select: none;
+  position: absolute;
+}
+
+.contenedor-oferta__contenido__contenedor-image__principal {
+  grid-area: main;
+  width: 100%;
+}
+
+.contenedor-oferta__contenido__contenedor-image3 {
+  width: 100%;
+  border-radius: 10px;
+  grid-area: second2;
+}
+
+.contenedor-oferta__contenido__contenedor-image__image, 
+.contenedor-oferta__contenido__contenedor-image__image2,
+.contenedor-oferta__contenido__contenedor-image__image3 {
+  position: relative;
+  width: 50.29282576866764vw;
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.contenedor-oferta__contenido__content {
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  column-gap: 3vw;
+  margin-bottom: 5vw;
+}
+
+.contenedor-oferta__contenido__content__card-precio {
+  background: linear-gradient(270deg, #98BD1E 0%, #217C4C 100%);
+  border-radius: 10px;
+  color: #FFFFFF;
+  padding: 1vw 2vw;
+  grid-area: second1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-oferta__contenido__content__card-precio small:first-of-type {
+  display: block;
+  font-weight: 300;
+  font-size: 1.35vw;
+  line-height: 2.1961932650073206vw;
+  text-transform: uppercase;
+  text-align: left;
+  width: 100%;
+}
+
+.contenedor-oferta__contenido__content__card-precio small:last-of-type {
+  display: block;
+  font-weight: 300;
+  font-size: .95vw;
+  line-height: 1.610541727672035vw;
+  text-align: right;
+  width: 100%;
+}
+
+.contenedor-oferta__contenido__content__card-precio strong {
+  display: block;
+  font-weight: 700;
+  font-size: 2.9vw;
+  line-height: 3.4vw;
+  text-align: center;
+  width: 100%;
+}
+
+.contenedor-oferta__contenido__content__caracteristicas__titulo {
+  font-weight: 700;
+  font-size: 2.11vw;
+  line-height: 3.5871156661786237vw;
+  color: var(--color-primary);
+  margin-bottom: 1.2vw;
+}
+
+.contenedor-oferta__contenido__content__caracteristicas__parrafo {
+  font-weight: 300;
+  font-size: 1.1vw;
+  line-height: 1.3vw;
+  margin-bottom: 1.85vw;
+}
+
+.contenedor-oferta__contenido__content__caracteristicas__metros span {
+  font-weight: 300;
+  font-size: 1.33vw;
+  line-height: 1.6vw;
+}
+
+
+.contenedor-oferta__contenido__content__caracteristicas__metros strong {
+  font-weight: 700;
+  font-size: 1.33vw;
+  line-height: 1.6vw;
+}
+
+@media screen and (max-width:600px) {
+  .contenedor-oferta__contenido {
+    display: block;
+  }
+
+  .contenedor-oferta__contenido__contenedor-image__image3 {
+    display: none;
+  }
+
+  .contenedor-oferta__contenido__content__card-precio {
+    padding: 2vw 21vw;
+    margin-top: 5vw;
+  }
+
+  .contenedor-oferta__contenido__content__card-precio strong {
+    font-weight: 700;
+    font-size: 8.7vw;
+    line-height: 8.7vw;
+  }
+
+  .contenedor-oferta__contenido__content__card-precio small:first-of-type {
+    align-self: flex-start;
+    font-weight: 400;
+    font-size: 2.1vw;
+    line-height: 4vw;
+    text-transform: uppercase;
+  }
+
+  .contenedor-oferta__contenido__content__card-precio small:last-of-type {
+    align-self: flex-end;
+    font-weight: 400;
+    font-size: 2.1vw;
+    line-height: 4vw;  
+  }
+
+  .contenedor-oferta__contenido__llama {
+    top: -25vw;
+    left: -1vw;
+    z-index: 1;
+    width: 78vw;
+    user-select: none;
+    position: absolute;
+  }
+
+  .contenedor-oferta__contendo__text {
+    position: absolute;
+    top: -9.2vw;
+    left: 1.6vw;
+    z-index: 2;
+  
+    font-weight: 400;
+    font-size: 5.4vw;
+    line-height: 5.4vw;
+    text-align: center;
+  }
+
+  .contenedor-oferta__header__titulo__text {
+    font-size: 6.4vw;
+    line-height: 6.4vw;
+  }
+  
+  .contenedor-oferta__header__titulo {
+    background: var(--color-secondary);
+    box-shadow: 0px 0px 0.7320644216691069vw rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 var(--border-radius80) var(--border-radius80);
+    height: 11.054172767203514vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45vw;
+    color: #fff;
+    padding: 6.5vw;
+  }
+
+  .contenedor-oferta__contenido__content {
+    display: block;
+  }
+
+  .contenedor-oferta__contenido__content__caracteristicas__titulo {
+    font-weight: 700;
+    font-size: 6.4vw;
+    line-height: 6.4vw;
+    color: var(--color-primary);
+    margin-bottom: 4vw;
+  }
+
+  .contenedor-oferta__contenido__content__caracteristicas__parrafo {
+    font-weight: 300;
+    font-size: 3.15vw;
+    line-height: 3.8vw;
+    margin-bottom: 10vw;
+  }
+}
+

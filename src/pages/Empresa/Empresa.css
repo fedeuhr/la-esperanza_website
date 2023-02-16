@@ -1,0 +1,403 @@
+.contenedor-empresa {
+  margin-bottom: 5vw;
+}
+
+.contenedor-empresa__quienes-somos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 5.197657393850659vw;
+  align-items: center;
+  margin-bottom: 6.515373352855051vw;
+  margin-top: 6.04vw;
+}
+
+.display {
+  display: flex;
+}
+
+.alignCenter {
+  flex-direction: column;
+  align-items: center;
+}
+
+.alignItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.displayNone {
+  display: none;
+}
+
+.contenedor-empresa__quienes-somos__enunciado__titulo {
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: var(--color-primary);
+  margin-bottom: 2.6354319180087846vw;
+}
+
+.contenedor-empresa__quienes-somos__enunciado__parrafo {
+  font-weight: 300;
+  font-size: 1.05vw;
+  line-height: 1.4vw;
+}
+
+.contenedor-empresa__quienes-somos__image__contenedor {
+  border-radius: 100px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor-empresa__quienes-somos__image__contenedor__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 7.320644216691069vw 0px 0px;
+  box-shadow: 2px 1px 21px -7px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 2px 1px 21px -7px rgba(0,0,0,0.6);
+  -moz-box-shadow: 2px 1px 21px -7px rgba(0,0,0,0.6);
+}
+
+.contenedor-empresa__quienes-somos__seccion2 {
+  margin-bottom: 7vw;
+}
+
+.contenedor-empresa__quienes-somos__seccion2,
+.contenedor-empresa__quienes-somos__seccion4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-empresa__quienes-somos__seccion4__atributos {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.contenedor-empresa__quienes-somos__seccion2__titulo,
+.contenedor-empresa__quienes-somos__seccion4__titulo {
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: var(--color-primary);
+  margin-bottom: 6vw;
+  text-align: center;
+}
+
+
+.contenedor-empresa__quienes-somos__seccion2__atributos {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap:  3.2vw;
+}
+
+.contenedor-empresa__quienes-somos__seccion2__atributos__item,
+.contenedor-empresa__quienes-somos__seccion4__atributos__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-empresa__quienes-somos__seccion2__atributos__item__image,
+.contenedor-empresa__quienes-somos__seccion4__atributos__item__image {
+  width: 5.25vw;
+  margin-bottom: 1.7vw;
+  
+}
+
+.contenedor-empresa__quienes-somos__seccion2__atributos__item__titulo,
+.contenedor-empresa__quienes-somos__seccion4__atributos__item__titulo {
+  font-weight: 600;
+  font-size: 1.05vw;
+  line-height: 1.7569546120058566vw;
+  margin-bottom: .67vw;
+}
+
+.contenedor-empresa__quienes-somos__seccion2__atributos__item__descripcion
+ {
+  font-weight: 300;
+  font-size: .8vw;
+  line-height: 1.3177159590043923vw;
+  text-align: center;
+  width: 20.27818448023426vw;
+}
+
+.contenedor-empresa__quienes-somos__seccion4__atributos__item__descripcion {
+  font-weight: 300;
+  font-size: .8vw;
+  line-height: 1.3177159590043923vw;
+  text-align: center;
+}
+
+.contenedor-empresa__quienes-somos__seccion3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 2.1961932650073206vw;
+  align-items: center;
+  margin-bottom: 6.515373352855051vw;
+}
+
+.contenedor-empresa__quienes-somos__seccion3__contenedor-imagen {
+  border-radius: 100px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor-empresa__quienes-somos__seccion3__enunciado__parrafo {
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 2vw;
+}
+
+.contenedor-empresa__quienes-somos__seccion3__contenedor-imagen__imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100px 0px 0px 0px;
+  box-shadow: 2px 1px 21px -7px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 2px 1px 21px -7px rgba(0,0,0,0.6);
+  -moz-box-shadow: 2px 1px 21px -7px rgba(0,0,0,0.6);
+}
+
+.contenedor-empresa__quienes-somos__seccion3__enunciado__titulo {
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: var(--color-primary);
+}
+
+.contenedor-empresa__quienes-somos__seccion3__enunciado__subtitulo {
+  font-weight: 600;
+  font-size: 1.2vw;
+  line-height: 2.7086383601756956vw;
+}
+
+.contenedor-empresa__quienes-somos__seccion5__titulo {
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 3vw;
+  color: var(--color-primary);
+  margin-bottom: 2vw;
+  text-align: center;
+}
+
+.contenedor-swiper {
+  margin-top: 5vw;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: #d38a2b;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important;
+}
+
+.swiper-3d .swiper-slide-shadow-left {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, .75), rgba(0, 0, 0, 0)) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #FFF !important;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .contenedor-empresa__quienes-somos__enunciado__titulo {
+    font-size:calc(.75rem + 1.75vw);
+  }
+  .contenedor-empresa__quienes-somos__seccion2__titulo {
+    font-size:calc(.75rem + 1.75vw);
+  }
+  .contenedor-empresa__quienes-somos__seccion3__enunciado__titulo {
+    font-size: 3.3vw;
+  }
+  .contenedor-empresa__quienes-somos__seccion4__titulo {
+    font-size:calc(.75rem + 1.75vw);
+  }
+  .contenedor-empresa__quienes-somos__seccion2__atributos__item__descripcion {
+  font-size: .9vw;
+  line-height: 1.2vw;
+  height: auto;
+ }
+ .contenedor-empresa__quienes-somos__seccion2__atributos {
+  width: -webkit-fill-available;
+ }
+ .contenedor-empresa__quienes-somos__enunciado__parrafo {
+  font-size:calc(.75rem + .25vw);
+  line-height: calc(.5rem + 1.25vw);
+ }
+
+ .contenedor-empresa__quienes-somos__seccion4__atributos__item__descripcion {
+  font-size: .9vw;
+  line-height: 1.2vw;
+ }
+ .contenedor-empresa__quienes-somos__seccion2__atributos__item__titulo,
+.contenedor-empresa__quienes-somos__seccion4__atributos__item__titulo {
+  font-size: 1.6vw;
+}
+.contenedor-empresa__quienes-somos__seccion3__enunciado__subtitulo {
+  font-size: 2.1vw;
+  line-height: 4.5vw;
+}
+
+.contenedor-empresa__quienes-somos__seccion3__enunciado__parrafo {
+  font-size: 1.1vw;
+  line-height: 1.6vw;
+  margin-top: 2vw;
+}
+
+}
+
+@media screen and (max-width: 750px) {
+  .contenedor-empresa__quienes-somos__seccion2__atributos {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 6vw;
+   }
+   .contenedor-empresa__quienes-somos__seccion2__atributos__item__descripcion {
+    width: 50%;
+   }
+   .contenedor-empresa__quienes-somos__seccion4 {
+    margin-bottom: 8vw;
+   }
+
+   .contenedor-empresa__quienes-somos__seccion4__atributos {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .swiper-slide img {
+    border-top-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+  }
+  .swiper-3d .swiper-slide-shadow-left {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) !important;
+  }
+  .contenedor-empresa__quienes-somos__seccion4__atributos__item {
+    margin-bottom: 5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor-empresa__quienes-somos {
+    grid-template-columns: 1fr; 
+  }
+  .contenedor-empresa__quienes-somos__image__contenedor__image {
+    margin-top: clamp(35px, 1vw, 35px);
+  }
+  .contenedor-empresa__quienes-somos__seccion3 {
+    grid-template-columns: 1fr;
+  }
+
+  .contenedor-empresa__quienes-somos__seccion2 {
+    margin-top: 17vw;
+    margin-bottom: 18vw;
+  }
+
+  .contenedor-empresa__quienes-somos__seccion2__atributos__item {
+    flex-direction: row;
+  }
+  .contenedor-empresa__quienes-somos__seccion2__atributos__item__descripcion {
+    text-align: left;
+  }
+  .alignItem {
+    align-items: flex-start;
+  }
+  .contenedor-empresa__quienes-somos__seccion2__atributos__item__image, .contenedor-empresa__quienes-somos__seccion4__atributos__item__image {
+    width: 68px;
+    margin-right: 1.5vw;
+  }
+
+  .contenedor-empresa__quienes-somos__seccion2__atributos__item__titulo {
+    font-size: clamp(15px, 4vw, 18px);
+    line-height: clamp(18px, 4vw, 24px);
+  }
+
+  .contenedor-empresa__quienes-somos__seccion2__atributos__item__descripcion {
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+  }
+
+  .contenedor-empresa__quienes-somos__seccion2__titulo {
+    font-size: 6.27vw;
+    line-height: 10vw;
+    margin-top: .5rem;
+    margin-bottom: 4.7vw;
+    text-align: center;
+  }
+  .contenedor-empresa__quienes-somos__enunciado__titulo {
+    font-size: 6.27vw;
+    line-height: 10vw;
+    text-align: center;
+  }
+
+  .contenedor-empresa__quienes-somos__enunciado__parrafo {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .contenedor-empresa__quienes-somos__seccion3__enunciado__titulo {
+    font-size: 6.27vw;
+    line-height: 7vw;
+    margin-bottom: .5rem;
+  }
+  .contenedor-empresa__quienes-somos__seccion3__enunciado__subtitulo {
+    font-size: 3.8vw;
+    margin-bottom: 6vw;
+  }
+  .contenedor-empresa__quienes-somos__seccion3__enunciado__parrafo {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 4vw;
+    margin-bottom: 5vw;
+  }
+  .contenedor-empresa__quienes-somos__seccion4__atributos {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contenedor-empresa__quienes-somos__seccion4__atributos__item {
+    flex-direction: row;
+  }
+  .contenedor-empresa__quienes-somos__seccion4__atributos__item__descripcion {
+    text-align: left;
+  }
+
+  .contenedor-empresa__quienes-somos__seccion4__atributos__item__titulo {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .contenedor-empresa__quienes-somos__seccion5__titulo {
+    font-size: 6.27vw;
+    line-height: 10vw;
+    
+  }
+
+  .contenedor-empresa__quienes-somos__seccion4__atributos__item {
+    margin-bottom: 5vw;
+  }
+
+  .contenedor-empresa__quienes-somos__seccion4__atributos__item__descripcion {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
