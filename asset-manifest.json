@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/la-esperanza_website/static/css/main.ad34838a.css",
-    "main.js": "/la-esperanza_website/static/js/main.22b5f7d1.js",
+    "main.js": "/la-esperanza_website/static/js/main.2139546a.js",
     "static/css/518.0b95218f.chunk.css": "/la-esperanza_website/static/css/518.0b95218f.chunk.css",
-    "static/js/518.2f319e03.chunk.js": "/la-esperanza_website/static/js/518.2f319e03.chunk.js",
+    "static/js/518.40812bab.chunk.js": "/la-esperanza_website/static/js/518.40812bab.chunk.js",
     "static/css/925.32ed9488.chunk.css": "/la-esperanza_website/static/css/925.32ed9488.chunk.css",
     "static/js/925.6abd20f6.chunk.js": "/la-esperanza_website/static/js/925.6abd20f6.chunk.js",
     "static/js/787.54638b2e.chunk.js": "/la-esperanza_website/static/js/787.54638b2e.chunk.js",
     "index.html": "/la-esperanza_website/index.html",
     "main.ad34838a.css.map": "/la-esperanza_website/static/css/main.ad34838a.css.map",
-    "main.22b5f7d1.js.map": "/la-esperanza_website/static/js/main.22b5f7d1.js.map",
+    "main.2139546a.js.map": "/la-esperanza_website/static/js/main.2139546a.js.map",
     "518.0b95218f.chunk.css.map": "/la-esperanza_website/static/css/518.0b95218f.chunk.css.map",
-    "518.2f319e03.chunk.js.map": "/la-esperanza_website/static/js/518.2f319e03.chunk.js.map",
+    "518.40812bab.chunk.js.map": "/la-esperanza_website/static/js/518.40812bab.chunk.js.map",
     "925.32ed9488.chunk.css.map": "/la-esperanza_website/static/css/925.32ed9488.chunk.css.map",
     "925.6abd20f6.chunk.js.map": "/la-esperanza_website/static/js/925.6abd20f6.chunk.js.map",
     "787.54638b2e.chunk.js.map": "/la-esperanza_website/static/js/787.54638b2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad34838a.css",
-    "static/js/main.22b5f7d1.js"
+    "static/js/main.2139546a.js"
   ]
 }
