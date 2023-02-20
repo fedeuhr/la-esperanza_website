@@ -1,0 +1,16 @@
+{
+  "short_name": "La Esperanza",
+  "name": "Viviendas La Esperanza",
+  "description": "Construimos Casas Prefabricadas en Buenos Aires, Córdoba y todo el país. Ofrecemos facilidades de pago. Ingresá ahora y conocé nuestros modelos",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#F8F8F8",
+  "background_color": "#F8F8F8"
+}
